@@ -16,7 +16,7 @@ import (
     "context"
     "time"
 
-    "github.com/zoobzio/sum"
+    "github.com/zoobz-io/sum"
 )
 
 type User struct {

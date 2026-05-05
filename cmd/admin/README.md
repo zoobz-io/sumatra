@@ -17,12 +17,12 @@ import (
     "log"
     "net/http"
 
-    "github.com/zoobzio/rocco"
-    "github.com/zoobzio/sum"
-    "github.com/zoobzio/Sumatra/admin/contracts"
-    "github.com/zoobzio/Sumatra/admin/handlers"
-    "github.com/zoobzio/Sumatra/admin/stores"
-    "github.com/zoobzio/Sumatra/config"
+    "github.com/zoobz-io/rocco"
+    "github.com/zoobz-io/sum"
+    "github.com/zoobz-io/sumatra/admin/contracts"
+    "github.com/zoobz-io/sumatra/admin/handlers"
+    "github.com/zoobz-io/sumatra/admin/stores"
+    "github.com/zoobz-io/sumatra/config"
 )
 
 func main() {

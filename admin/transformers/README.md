@@ -13,8 +13,8 @@ Provide transformations specific to admin needs. Admin transformers may expose m
 package transformers
 
 import (
-    "github.com/zoobzio/Sumatra/models"
-    "github.com/zoobzio/Sumatra/wire"
+    "github.com/zoobz-io/sumatra/models"
+    "github.com/zoobz-io/sumatra/wire"
 )
 
 // UserToAdminResponse transforms a User model to an admin API response.

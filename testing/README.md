@@ -18,7 +18,7 @@ package testing
 import (
     "testing"
 
-    "github.com/zoobzio/Sumatra/models"
+    "github.com/zoobz-io/sumatra/models"
 )
 
 func NewUser(t *testing.T) *models.User {
@@ -54,7 +54,7 @@ package testing
 import (
     "context"
 
-    "github.com/zoobzio/Sumatra/models"
+    "github.com/zoobz-io/sumatra/models"
 )
 
 type MockUsers struct {
@@ -96,9 +96,9 @@ import (
     "context"
     "testing"
 
-    "github.com/zoobzio/sum"
-    sumtest "github.com/zoobzio/sum/testing"
-    "github.com/zoobzio/Sumatra/contracts"
+    "github.com/zoobz-io/sum"
+    sumtest "github.com/zoobz-io/sum/testing"
+    "github.com/zoobz-io/sumatra/contracts"
 )
 
 type RegistryOption func(k sum.Key)
@@ -132,8 +132,8 @@ package handlers
 import (
     "testing"
 
-    rtesting "github.com/zoobzio/rocco/testing"
-    vickytest "github.com/zoobzio/Sumatra/testing"
+    rtesting "github.com/zoobz-io/rocco/testing"
+    vickytest "github.com/zoobz-io/sumatra/testing"
 )
 
 func TestGetMe(t *testing.T) {

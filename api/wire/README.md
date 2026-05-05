@@ -15,7 +15,7 @@ package wire
 import (
     "context"
 
-    "github.com/zoobzio/sum"
+    "github.com/zoobz-io/sum"
 )
 
 type UserResponse struct {
@@ -51,7 +51,7 @@ func (u UserResponse) Clone() UserResponse {
 ## Request Pattern
 
 ```go
-import "github.com/zoobzio/check"
+import "github.com/zoobz-io/check"
 
 type UserUpdateRequest struct {
     Name *string `json:"name,omitempty" description:"New display name" example:"Jane Doe"`
@@ -81,7 +81,7 @@ func (r UserUpdateRequest) Clone() UserUpdateRequest {
 // wire/boundary.go
 package wire
 
-import "github.com/zoobzio/sum"
+import "github.com/zoobz-io/sum"
 
 func RegisterBoundaries(k sum.Key) error {
     if _, err := sum.NewBoundary[UserResponse](k); err != nil {

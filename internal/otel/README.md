@@ -9,7 +9,7 @@ Configure and initialize OpenTelemetry providers for logging, metrics, and traci
 ## Usage
 
 ```go
-import intotel "github.com/zoobzio/Sumatra/internal/otel"
+import intotel "github.com/zoobz-io/sumatra/internal/otel"
 
 // Create providers
 otelProviders, err := intotel.New(ctx, intotel.Config{

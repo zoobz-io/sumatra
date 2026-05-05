@@ -14,7 +14,7 @@ For operational events (startup milestones, health checks), use direct capitan s
 // events/startup.go
 package events
 
-import "github.com/zoobzio/capitan"
+import "github.com/zoobz-io/capitan"
 
 var (
     StartupDatabaseConnected = capitan.NewSignal("app.startup.database.connected", "Database connected")
@@ -45,8 +45,8 @@ For business events with typed payloads, use `sum.Event[T]`:
 package events
 
 import (
-    "github.com/zoobzio/capitan"
-    "github.com/zoobzio/sum"
+    "github.com/zoobz-io/capitan"
+    "github.com/zoobz-io/sum"
 )
 
 type UserCreatedEvent struct {

@@ -22,9 +22,9 @@ import (
     "context"
 
     "github.com/jmoiron/sqlx"
-    "github.com/zoobzio/astql"
-    "github.com/zoobzio/sum"
-    "github.com/zoobzio/Sumatra/models"
+    "github.com/zoobz-io/astql"
+    "github.com/zoobz-io/sum"
+    "github.com/zoobz-io/sumatra/models"
 )
 
 type Users struct {
@@ -55,8 +55,8 @@ package stores
 
 import (
     "github.com/jmoiron/sqlx"
-    "github.com/zoobzio/astql"
-    "github.com/zoobzio/grub"
+    "github.com/zoobz-io/astql"
+    "github.com/zoobz-io/grub"
 )
 
 type Stores struct {

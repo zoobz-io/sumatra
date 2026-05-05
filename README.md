@@ -1,10 +1,10 @@
 # Sumatra
 
-A template repository for building Go applications with the zoobzio framework.
+A template repository for building Go applications with the zoobz-io framework.
 
 ## Overview
 
-Sumatra provides a production-ready project structure built on [sum](https://github.com/zoobzio/sum), following patterns established in real-world applications. It includes:
+Sumatra provides a production-ready project structure built on [sum](https://github.com/zoobz-io/sum), following patterns established in real-world applications. It includes:
 
 - Type-safe service registry via sum
 - HTTP server with OpenAPI support via rocco

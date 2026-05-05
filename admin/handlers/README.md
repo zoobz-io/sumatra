@@ -13,11 +13,11 @@ Define HTTP endpoints for internal team operations. Admin handlers provide syste
 package handlers
 
 import (
-    "github.com/zoobzio/rocco"
-    "github.com/zoobzio/sum"
-    "github.com/zoobzio/Sumatra/admin/contracts"
-    "github.com/zoobzio/Sumatra/admin/transformers"
-    "github.com/zoobzio/Sumatra/wire"
+    "github.com/zoobz-io/rocco"
+    "github.com/zoobz-io/sum"
+    "github.com/zoobz-io/sumatra/admin/contracts"
+    "github.com/zoobz-io/sumatra/admin/transformers"
+    "github.com/zoobz-io/sumatra/wire"
 )
 
 var ListUsers = rocco.GET("/users", func(req *rocco.Request[rocco.NoBody]) (wire.AdminUserListResponse, error) {
@@ -60,7 +60,7 @@ var GetUser = rocco.GET("/users/{id}", func(req *rocco.Request[rocco.NoBody]) (w
 // admin/handlers/handlers.go
 package handlers
 
-import "github.com/zoobzio/rocco"
+import "github.com/zoobz-io/rocco"
 
 func All() []rocco.Endpoint {
     return []rocco.Endpoint{
@@ -79,7 +79,7 @@ func All() []rocco.Endpoint {
 // admin/handlers/errors.go
 package handlers
 
-import "github.com/zoobzio/rocco"
+import "github.com/zoobz-io/rocco"
 
 var (
     ErrUserNotFound    = rocco.ErrNotFound.WithMessage("user not found")

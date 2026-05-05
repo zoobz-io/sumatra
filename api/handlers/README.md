@@ -13,11 +13,11 @@ Define HTTP endpoints using rocco's handler pattern. Handlers are the entry poin
 package handlers
 
 import (
-    "github.com/zoobzio/rocco"
-    "github.com/zoobzio/sum"
-    "github.com/zoobzio/Sumatra/api/contracts"
-    "github.com/zoobzio/Sumatra/api/transformers"
-    "github.com/zoobzio/Sumatra/wire"
+    "github.com/zoobz-io/rocco"
+    "github.com/zoobz-io/sum"
+    "github.com/zoobz-io/sumatra/api/contracts"
+    "github.com/zoobz-io/sumatra/api/transformers"
+    "github.com/zoobz-io/sumatra/wire"
 )
 
 var GetMe = rocco.GET("/me", func(req *rocco.Request[rocco.NoBody]) (wire.UserResponse, error) {
@@ -60,7 +60,7 @@ var UpdateMe = rocco.PATCH("/me", func(req *rocco.Request[wire.UserUpdateRequest
 // handlers/handlers.go
 package handlers
 
-import "github.com/zoobzio/rocco"
+import "github.com/zoobz-io/rocco"
 
 func All() []rocco.Endpoint {
     return []rocco.Endpoint{
@@ -77,7 +77,7 @@ func All() []rocco.Endpoint {
 // handlers/errors.go
 package handlers
 
-import "github.com/zoobzio/rocco"
+import "github.com/zoobz-io/rocco"
 
 var (
     ErrUserNotFound = rocco.ErrNotFound.WithMessage("user not found")

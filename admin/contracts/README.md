@@ -15,7 +15,7 @@ package contracts
 import (
     "context"
 
-    "github.com/zoobzio/Sumatra/models"
+    "github.com/zoobz-io/sumatra/models"
 )
 
 type Users interface {
