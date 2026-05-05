@@ -10,8 +10,8 @@ import (
 	"github.com/zoobzio/aperture"
 	"github.com/zoobzio/capitan"
 	"github.com/zoobzio/sum"
-	"github.com/zoobzio/sumatra/events"
-	intotel "github.com/zoobzio/sumatra/internal/otel"
+	"github.com/zoobzio/Minos/events"
+	intotel "github.com/zoobzio/Minos/internal/otel"
 )
 
 func main() {
@@ -68,8 +68,8 @@ func run() error {
 	// 3. Create and Register Stores
 	// =========================================================================
 
-	// Import: "github.com/zoobzio/sumatra/api/stores"
-	// Import: "github.com/zoobzio/sumatra/api/contracts"
+	// Import: "github.com/zoobzio/Minos/api/stores"
+	// Import: "github.com/zoobzio/Minos/api/contracts"
 	//
 	// allStores, err := stores.New(db, renderer, bucketProvider)
 	// if err != nil {
@@ -104,7 +104,7 @@ func run() error {
 	}
 	serviceName := os.Getenv("OTEL_SERVICE_NAME")
 	if serviceName == "" {
-		serviceName = "sumatra"
+		serviceName = "Minos"
 	}
 
 	otelProviders, err := intotel.New(ctx, intotel.Config{
@@ -144,7 +144,7 @@ func run() error {
 	// 7. Register Handlers and Run
 	// =========================================================================
 
-	// Import: "github.com/zoobzio/sumatra/api/handlers"
+	// Import: "github.com/zoobzio/Minos/api/handlers"
 	// svc.Handle(handlers.All()...)
 
 	// appCfg := sum.MustUse[config.App](ctx)
