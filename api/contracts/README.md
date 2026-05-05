@@ -15,7 +15,7 @@ package contracts
 import (
     "context"
 
-    "github.com/zoobzio/Minos/models"
+    "github.com/zoobzio/Sumatra/models"
 )
 
 type Users interface {

@@ -24,7 +24,7 @@ import (
     "github.com/jmoiron/sqlx"
     "github.com/zoobzio/astql"
     "github.com/zoobzio/sum"
-    "github.com/zoobzio/Minos/models"
+    "github.com/zoobzio/Sumatra/models"
 )
 
 type Users struct {

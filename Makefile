@@ -2,7 +2,7 @@
 
 .DEFAULT_GOAL := help
 
-APP_NAME := Minos
+APP_NAME := Sumatra
 BIN_DIR := bin
 
 help: ## Display available commands

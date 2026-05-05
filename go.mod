@@ -1,4 +1,4 @@
-module github.com/zoobzio/Minos
+module github.com/zoobzio/sumatra
 
 go 1.25.0
 

@@ -1,10 +1,10 @@
-# Minos
+# Sumatra
 
 A template repository for building Go applications with the zoobzio framework.
 
 ## Overview
 
-Minos provides a production-ready project structure built on [sum](https://github.com/zoobzio/sum), following patterns established in real-world applications. It includes:
+Sumatra provides a production-ready project structure built on [sum](https://github.com/zoobzio/sum), following patterns established in real-world applications. It includes:
 
 - Type-safe service registry via sum
 - HTTP server with OpenAPI support via rocco
@@ -16,7 +16,7 @@ Minos provides a production-ready project structure built on [sum](https://githu
 ## Project Structure
 
 ```
-Minos/
+Sumatra/
 ├── cmd/app/          # Application entrypoint
 ├── config/           # Configuration types
 ├── contracts/        # Interface definitions
